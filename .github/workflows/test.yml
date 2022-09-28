@@ -1,4 +1,4 @@
-name: Test the thank you action
+name: Thank you action
 
 on:
   pull_request:
