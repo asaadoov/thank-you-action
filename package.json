@@ -25,6 +25,6 @@
     "node-fetch": "^2.6.7"
   },
   "release": {
-    "branches": ["master", "next"]
+    "branches": ["main", "next"]
   }
 }
