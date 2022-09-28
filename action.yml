@@ -1,0 +1,16 @@
+name: 'Thank You Action'
+description: 'Thank someone when they creat a PR'
+author: 'Asaad Babiker'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'disk/index.js'
+  

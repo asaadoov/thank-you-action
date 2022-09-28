@@ -1,0 +1,24 @@
+{
+  "name": "thank-you-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaadoov/thank-you-action.git"
+  },
+  "keywords": [],
+  "author": "Asaad Babiker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asaadoov/thank-you-action/issues"
+  },
+  "homepage": "https://github.com/asaadoov/thank-you-action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
