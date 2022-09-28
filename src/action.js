@@ -7,7 +7,7 @@ async function run(){
   const TENOR_TOKEN = core.getInput('TENOR_TOKEN')
   
   const random_pos = Math.round(Math.random() * 1000)
-  const url = `https://api.tenor.com/v1/search?q=thank%20you&pos=${random_pos}&limit=1&media_filter=minimal&contentfilter=high&key=${TENOR_TOKEN}`
+  const url = `https://api.tenor.com/v2/search?q=thank%20you&pos=${random_pos}&limit=1&media_filter=minimal&contentfilter=high&key=${TENOR_TOKEN}`
 
   const response = await fetch(url)
   const { results } = await response.json()
