@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# thank-you-action
-=======
 # Thank You GIF - Github Action
 
 > This repository for the Thank you note Action
@@ -43,4 +40,3 @@ The Action will run the [`index.js`](dist/index.js) file which verifies the requ
 ## License
 
 [MIT](LICENSE)
->>>>>>> f23c2a3 (add README.md)
