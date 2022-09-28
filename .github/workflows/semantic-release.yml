@@ -1,8 +1,7 @@
 name: Semantic Release Action
 
 on:
-  pull_request:
-    types: [opened]
+  push
 
 jobs:
   set-release:

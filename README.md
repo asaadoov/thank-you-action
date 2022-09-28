@@ -1,6 +1,6 @@
 # Thank You GIF - Github Action
 
-> This repository for the Thank you note Action
+> This repository for the Thank you note Action and uses semanti
 [![Build Status](https://github.com/probot/example-github-action/workflows/Test/badge.svg)](https://github.com/asaadoov/thank-you-action/actions)
 
 A Github action to comment on a created pull request, with a thanking note and a GIF.
