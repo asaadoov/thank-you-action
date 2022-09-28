@@ -9674,12 +9674,11 @@ async function run(){
   const TENOR_TOKEN = core.getInput('TENOR_TOKEN')
   
   const random_pos = Math.round(Math.random() * 1000)
-  const url = `https://api.tenor.com/v2/search?q=thank%20you&pos=${random_pos}&limit=1&media_filter=minimal&contentfilter=high&key=${TENOR_TOKEN}`
+  const url = `https://tenor.googleapis.com/v2/search?q=thanks&key=AIzaSyDP6EsRZ2eN-tTm1ra7SE0bcrqxbCwH7BA&&limit=8&random=true&pos=${random_pos}`
 
   const response = await fetch(url)
   const { results } = await response.json()
-  const gifurl = results[0].media[0].tinygif.url
-  
+  const gifurl = results[0].media_formats.tinygif.url
 
   const octokit = github.getOctokit(GITHUB_TOKEN)
 
@@ -9693,7 +9692,11 @@ async function run(){
   });
 }
 
-run()
+try {
+  run()
+} catch(error) {
+  throw new Error(error);
+}
 })();
 
 module.exports = __webpack_exports__;
