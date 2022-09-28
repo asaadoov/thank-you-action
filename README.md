@@ -29,7 +29,7 @@ jobs:
 
 ## Scerets
 - `GITHUB_TOKEN` - _Required_ Allows the Action to authenticte with the GitHub API to create the release.
-- `TENOR_TOKEN` - _Required_ Allows the Action to authenticte with the Tenor API to get the GIF.
+- `TENOR_TOKEN` - _Required_ Allows the Action to authenticte with the [`Tenor API`](https://developers.google.com/tenor/guides/quickstart) to get the GIF.
 
 ## How it works
 
