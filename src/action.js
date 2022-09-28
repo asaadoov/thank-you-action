@@ -1,6 +1,6 @@
 const core = require('@actions/core')
 const github = require('@actions/github')
-const fetch = require('node-fetch')
+import fetch from 'node-fetch'
 
 async function run(){
   const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN')
